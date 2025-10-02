@@ -6,10 +6,6 @@ from flask import render_template
 def index():
     return render_template('home/index.html')
 
-@app.route('/registration')
-def registration():
-    return render_template('accounts/registration.html')
-
 # Main method
 if __name__ == '__main__':
     app.run()
