@@ -1,0 +1,28 @@
+*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Flask instance folder
+instance/
+
+# Environment variables / secrets
+.env
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# IntelliJ IDEA
+.idea/
+*.iml
